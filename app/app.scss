@@ -1,0 +1,327 @@
+@import '@nativescript/theme/core';
+@import '@nativescript/theme/default';
+
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+
+// Font icon class
+.fab {
+  font-family: 'Font Awesome 5 Brands', 'fa-brands-400';
+  font-weight: 400;
+}
+
+.fas {
+  font-family: 'Font Awesome 5 Free', 'fa-solid-900';
+  font-weight: 400;
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
+  font-weight: 400;
+}
+.fa {
+  font-family: FontAwesome;
+}
+.hr-light {
+  height: 2px;
+  background-color: grey;
+}
+.input {
+  font-size: 18;
+  background-color: #E6EFF4;
+  border-color: #FCEEE6;
+  border-width: 1;
+  border-radius: 5;
+  height: 50;
+  padding: 12px 20px;
+  margin-left: 0;
+  margin-right: 0;
+  &:focus {
+    border-color: #e1763c;
+    border-width: 1;
+  }
+
+  &:disabled {
+    background-color: white;
+    opacity: 0.5;
+  }
+}
+.login_page {
+	background-image: url("~/assets/images/login_bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	/* Center the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+}
+.bg-tab-header{
+	background-image: url("~/assets/images/bg-tab-header.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	/* Center the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+}
+.login_logo {
+	width: 309;
+	height: 149;
+}
+
+.login_input_width {
+	position: relative;
+	width: 80%;
+	height: 100%;
+	margin-top: 20;
+}
+
+.login_input {
+	height: 35;
+	padding: 12px 120px;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	border-width: 1;
+	border-radius: 15;
+}
+
+.forgotPassword {
+	color: white;
+	font-size: 14;
+	text-align: right;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.textWhite {
+	color: white;
+}
+
+.btn-login {
+	background-color: #EC860F;
+	border-width: 1;
+	border-radius: 15;
+	font-size: 14;
+}
+
+.btn-chinhsua {
+	background-color: #EC860F;
+	border-width: 1;
+	border-radius: 15;
+	font-size: 14;
+}
+.btn-tracuu {
+	background-color: #EC860F;
+	border-width: 1;
+	border-top-right-radius: 15;
+	border-bottom-right-radius: 15;
+	font-size: 14;
+}
+
+.top-banner {
+	background-image: url("~/assets/images/top-banner.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	/* Center the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+}
+
+.account-name {
+	font-size: 18;
+	color: orange;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.account-position {
+	font-size: 18;
+	color: orange;
+	margin-top: 2;
+}
+
+.floatRight {
+	text-align: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.font13 {
+	font-size: 13;
+}
+.font16 {
+	font-size: 16;
+}
+.padding20 {
+	padding: 15;
+}
+
+.lineheight5 {
+	line-height: 25;
+}
+
+.backgroundGrey {
+	background-color: #F8F5F2;
+}
+.grey{
+    color: grey;
+}
+
+.backgroundWhite {
+	background-color: white;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.header {
+	background-image: url("~/assets/images/actionbar-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	/* Center the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+}
+
+.page {
+	align-items: center;
+	flex-direction: column;
+}
+
+.action-bar {
+	color: white;
+	background-color: #EC860F;
+	background-image: url("~/assets/images/actionbar-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	/* Center the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+}
+
+.editform {
+	margin: 15 15;
+	border-width: 1;
+	border-radius: 15;
+	border-color: transparent;
+	padding: 5 15;
+}
+
+.editforminput {
+	height: 35;
+	padding: 12px 40px;	
+	border-width: 1;
+	border-radius: 5;
+  	color: black;
+	border: 1px solid #E6EFF4; background-color: #F7F8F9;
+}
+
+.eformselect {
+	background-color: #F7F8F9; 
+	height: 35;
+	border: 1px solid #E6EFF4;
+}
+
+.ediformhuy {
+	background-color: white;
+	color: #EC860F;
+	border-width: 1;
+	border-radius: 5;
+	border-color: #EC860F;
+}
+
+//
+.actionbar-title {
+	color: white;
+	font-weight: bold;
+}
+
+.titletracuu {
+	color: orange;
+	font-size: 18;
+	font-weight: bold;
+	text-align: left;
+}
+
+.font18 {
+	font-size: 18;
+}
+.rotate90{
+	transform: scaleX(0.5);
+}
+
+.font14 {
+	font-size: 14;
+}
+
+.tracuuinput {
+	padding: 12px 40px;
+	background-color: white;
+	border-width: 1;
+	border-radius: 5;
+	color: black;
+	&:focus {
+		border-color: #e1763c;
+		border-width: 1;
+	}
+}
+
+.thongkehoso {
+	margin-top: 2%;
+	padding: 10 20;
+	background-color: #ec860f;
+	border-radius: 0 0 15 15;
+	font-size: 14;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn-filter {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+.columnName {
+	color: #EC860F;
+	border-right-color: #EC860F;
+	border-right-width: 1px;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 10;
+}
+
+.tableBorder {
+	border-right-color: #DADADA;
+	border-right-width: 1px;
+}
+
+.btn-tab-chitiettthc {
+	background-color: #C4C4C4;
+	border-radius: 0px 50px 0px 0px;
+	color: black;
+	padding: 5 5;
+	margin: 0;
+	font-size: 13;
+}
+
+.active {
+	background-color: #EC860F;
+	font-weight: bold;
+    color:white;
+}
+
+.upper-grid {
+    z-index: 9999;
+}
+.orange{
+	color: orange;
+}
+.external-link {
+	vertical-align: center;
+	height: 20;
+	text-align: center;
+  }

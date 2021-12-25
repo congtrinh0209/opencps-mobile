@@ -1,0 +1,40 @@
+@import 'app';
+// Place any CSS rules you want to apply only on Android here
+.backgroundGrey .header {
+    height: 200;
+    padding: 30 20 10 20;
+    z-index: 999
+}
+.transparent {
+	background-color: rgba(255, 0, 0, 0.0);
+    border-color: rgba(255, 0, 0, 0.0);
+    border-width: 0;
+    z-index: 0;
+}
+.icon-bar {
+    font-size: 20
+}
+.actionbar-title {
+    font-size: 16;
+    margin-top: 10;
+}
+.icon-notifycation {
+    margin-top: 15
+}
+.btn-nophoso {
+    padding: 0 20
+}
+.tracuuinputTthc {
+	padding: 12 10;
+    margin-left: 0;
+}
+.pageNumberPagination {
+    padding-top: 7;
+}
+.locThuTuc Button {
+    padding: 5 15;
+    height: 32;
+}
+.locThuTuc .ediformhuy {
+    margin-left: 0;
+}

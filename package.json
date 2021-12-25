@@ -1,0 +1,36 @@
+{
+  "name": "Dịch vụ công Hậu Giang",
+  "main": "app/app.js",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@klippa/nativescript-http": "^3.0.2",
+    "@nativescript-community/ui-document-picker": "^1.1.8",
+    "@nativescript/background-http": "^5.0.2",
+    "@nativescript/core": "~8.0.0",
+    "@nativescript/theme": "~3.0.1",
+    "@nstudio/nativescript-checkbox": "^2.0.4",
+    "@nstudio/nativescript-filterable-listpicker": "^3.0.0",
+    "axios": "^0.23.0",
+    "jquery": "^3.6.0",
+    "nativescript-app-settings": "^1.0.0",
+    "nativescript-dom": "^2.0.5",
+    "nativescript-download-progress": "^1.4.3",
+    "nativescript-drop-down": "^6.0.0",
+    "nativescript-mediafilepicker": "^4.0.2",
+    "nativescript-menu": "^1.1.7",
+    "nativescript-permissions": "^1.3.12",
+    "nativescript-popup": "^1.5.0",
+    "nativescript-ui-listview": "^10.0.0",
+    "nativescript-ui-sidedrawer": "^10.0.1",
+    "nativescript-vue": "~2.9.0",
+    "nativescript-vue-fonticon": "^1.0.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.0.0",
+    "@nativescript/ios": "8.1.0",
+    "@nativescript/webpack": "~5.0.0",
+    "nativescript-vue-template-compiler": "~2.9.0"
+  }
+}
